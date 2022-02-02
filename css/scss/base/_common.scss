@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 5px 0;
+}
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
