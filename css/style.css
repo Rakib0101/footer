@@ -101,7 +101,8 @@ li {
   padding: 20px 0;
 }
 
-.footer .footer__box--five .footer--btn a {
+.footer .footer__box--five .footer--btn {
+  background-color: #fff;
   color: #485258;
 }
 /*# sourceMappingURL=style.css.map */
