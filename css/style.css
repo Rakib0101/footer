@@ -10,6 +10,8 @@ a {
   display: inline-block;
   cursor: pointer;
   color: #fff;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
 }
 
 ul {
@@ -32,6 +34,7 @@ li {
       grid-template-columns: 1fr 1fr 1fr;
   margin: 20px;
   border-radius: 20px;
+  background: #E5E5E5;
 }
 
 .footer .footer__box {
@@ -60,12 +63,12 @@ li {
   padding-left: 10px;
 }
 
-.footer .footer__box .footer__title.footer__title--four {
+.footer .footer__box .footer__title--four {
   color: #485258;
   padding-top: 30px;
 }
 
-.footer .footer__box .footer__title.footer__title--five {
+.footer .footer__box .footer__title--five {
   padding-top: 30px;
 }
 
@@ -73,9 +76,23 @@ li {
   padding-bottom: 30px;
 }
 
+.footer .footer__box .footer__lists ul li {
+  font-size: 18px;
+}
+
+.footer .footer__box .footer__lists ul li a {
+  display: block;
+  padding: 8px 4px;
+}
+
+.footer .footer__box .footer__lists ul li a:hover {
+  background: #F27251;
+}
+
 .footer .footer__box--one {
   background-color: #FB896B;
   padding: 40px;
+  border-top-left-radius: 10px;
 }
 
 .footer .footer__box--two {
@@ -84,10 +101,16 @@ li {
 
 .footer .footer__box--three {
   background-color: #F1A864;
+  border-top-right-radius: 10px;
 }
 
 .footer .footer__box--four {
   background-color: #FBD36B;
+  border-bottom-left-radius: 10px;
+}
+
+.footer .footer__box--four ul li a {
+  color: #485258;
 }
 
 .footer .footer__box--five {
@@ -95,6 +118,7 @@ li {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
+  border-bottom-right-radius: 10px;
 }
 
 .footer .footer__box--five .footer__text {
